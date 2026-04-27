@@ -31,7 +31,7 @@ class Product:
     def is_active(self) -> bool:
         return self.active
 
-    def active(self) -> None:
+    def activate(self) -> None:
         self.active = True
 
     def deactivate(self) -> None:
