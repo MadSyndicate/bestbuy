@@ -1,6 +1,7 @@
 from products import Product
 
 class Store:
+    """Stores products and their quantity"""
     def __init__(self, products=None):
         if products is None:
             products = list()

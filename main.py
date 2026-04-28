@@ -11,6 +11,7 @@ best_buy = store.Store(product_list)
 
 
 def start(store_instance: store.Store) -> None:
+    """user interface for store interaction"""
     while True:
         print("--- Store Menu ---")
         print("1. List all products in store")
@@ -73,6 +74,7 @@ def start(store_instance: store.Store) -> None:
 
 
 def main():
+    """programm entry point"""
     start(best_buy)
 
 
